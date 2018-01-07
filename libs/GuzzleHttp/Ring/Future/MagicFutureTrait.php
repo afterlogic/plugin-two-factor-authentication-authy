@@ -1,8 +1,6 @@
 <?php
 namespace GuzzleHttp\Ring\Future;
 
-include_once 'BaseFutureTrait.php';
-
 /**
  * Implements common future functionality that is triggered when the result
  * property is accessed via a magic __get method.
